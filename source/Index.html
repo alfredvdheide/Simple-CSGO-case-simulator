@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+
+<head lang="en">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="UTF-8">
+    <title>JS CS:GO Case Sim</title>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("button").click(function(){
+                $("button").hide();
+                $("button").delay(8000);
+                $("button").show(1);
+            });
+        });
+    </script>
+</head>
+<body background="lord-gaben.jpg">>
+
+
+<center>
+    <span>
+        <h1>
+            Basic HTML and Javascript CS:GO CHROMA 2 Case Unboxing
+        </h1>
+    </span>
+</center>
+
+
+<center>
+    <table border>
+        <tr>
+            <th width="33.33%"><img src="crab.gif" alt="Mountain View" style="width:304px;height:228px"></th>
+
+
+            <th width="33.33%">
+
+                <p id="demo"></p>
+                <button onclick="unbox()">
+
+                    <audio id="caseSound" src="case.mp3" preload="auto"></audio>
+                    <a href="javascript:play_single_sound();"><img src="use_key.png" width="127"></a>
+                    <script type="text/javascript">
+                        function play_single_sound() {
+                            document.getElementById('caseSound').play();
+                        }
+                    </script>
+                </button>
+
+            </th>
+
+
+            <th width="33.33%">Statistics
+                <div align="left">
+            <li>Cases opened:<p id="totalCases"></p></li>
+            <li>Blue cases opened:<p id="totalBlue"></p></li>
+            <li>Purple cases opened:<p id="totalPurple"></p></li>
+            <li>Pink cases opened:<p id="totalPink"></p></li>
+            <li>Red opened:<p id="totalRed"></p></li>
+            <li>Knives opened:<p id="totalKnife"></p></li>
+                </div>
+            </th>
+        </tr>
+    </table>
+</center>
+<div id="list"></div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

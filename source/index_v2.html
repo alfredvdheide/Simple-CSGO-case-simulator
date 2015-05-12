@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- HTML Codes by Quackit.com -->
+    <title>
+        Counter-Strike:Global Offensive Chroma 2 Case Unboxing</title>
+    <meta name="keywords" content="csgo,cases,key">
+    <meta name="description" content="Unbox csgo cases in a simulator">
+    <style type="text/css">
+        body {background-color:ffffff;background-image:url(http://wallpaperstock.net/minimal-gray-to-white-gradient_wallpapers_33797_1920x1080.jpg);background-repeat:repeat;background-position:top left;background-attachment:fixed;}
+        h1{text-align:center;font-family:Garamond;color:000000;}
+        p {font-family:Arial;font-size:18px;font-style:normal;font-weight:normal;color:000000;background-color:000000;}
+    </style>
+</head>
+
+
+
+<center>
+    <span>
+        <h1>
+            Basic HTML and Javascript CS:GO CHROMA 2 Case Unboxing
+        </h1>
+    </span>
+</center>
+
+
+<center>
+    <table border>
+        <tr>
+            <th width="33.33%"><img src="http://www.gamesbase24.com/wp-content/uploads/2014/07/csgo.jpg" alt="Mountain View" style="width:304px;height:228px"></th>
+
+
+            <th width="33.33%">
+
+                <p id="demo"></p>
+                <button onclick="unbox()">
+
+                    <audio id="caseSound" src="case.mp3" preload="auto"></audio>
+                    <a href="javascript:play_single_sound();"><img src="use_key.png" width="127"></a>
+                    <script type="text/javascript">
+                        function play_single_sound() {
+                            document.getElementById('caseSound').play();
+                        }
+                    </script>
+                </button>
+
+            </th>
+
+
+            <th width="33.33%">Statistics
+                <div align="left">
+                    <li>Cases opened:<p id="totalCases"></p></li>
+                    <li>Blue cases opened:<p id="totalBlue"></p></li>
+                    <li>Purple cases opened:<p id="totalPurple"></p></li>
+                    <li>Pink cases opened:<p id="totalPink"></p></li>
+                    <li>Red opened:<p id="totalRed"></p></li>
+                    <li>Knives opened:<p id="totalKnife"></p></li>
+                </div>
+            </th>
+        </tr>
+    </table>
+</center>
+<div id="list"></div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
