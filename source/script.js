@@ -8,19 +8,22 @@
  */
 //document.write(item); use this to print stuff from javascript onto a html page
 
-
 var itemColor; //variable used to store the item colour e.g. blue, purple
 var itemWeapon;//the weapon name+condition
 var totalCases = [];
 var counting = 0;
 var itemList = "";
+var itemListBlue = "";
+var itemListPurple = "";
+var itemListPink = "";
+var itemListRed = "";
+var itemListKnife = "";
 var totalBlue = [];
 var totalPurple = [];
 var totalPink = [];
 var totalRed = [];
 var totalKnife = [];
 var delay = 800;
-
 
 function unbox() {
 
@@ -29,7 +32,6 @@ function unbox() {
     var weaponCondition = Math.random() * 5;//factor determining the condition
     var randomKnife = Math.random() * 30;
 //variables
-
 
 
 //Part 1 Creating a Weapon colour picker
@@ -277,7 +279,6 @@ function unbox() {
 //history of items unboxed
     itemList += "<br />" + totalCases.length + ". " + itemWeapon + "";
     document.getElementById("list").innerHTML = itemList;
-
 
 }
 

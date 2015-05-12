@@ -1,3 +1,4 @@
+
 body {
     background-color: lightblue;
     font: Impact;
@@ -6,4 +7,52 @@ body {
 h1 {
     color: navy;
     margin-left: 20px;
+}
+table{
+    width:100%;
+}
+body{
+    background-color:ffffff;background-image:url(http://wallpaperstock.net/minimal-gray-to-white-gradient_wallpapers_33797_1920x1080.jpg);
+    background-repeat:repeat;background-position:top left;background-attachment:fixed;
+}
+h1{
+    text-align:center;
+    font-family:Garamond;
+    color:000000;
+}
+p{
+    font-family:Arial;
+    font-size:18px;
+    font-style:normal;
+    font-weight:normal;
+    color:000000;
+    background-color:000000;
+}
+.tg{
+    border-collapse:collapse;
+    border-spacing:0;
+    position: absolute;
+    width: 100%;
+}
+.tg td{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    padding:20px 20px;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+.tg th{
+    font-family:Arial, sans-serif;
+    font-size:14px;
+    font-weight:normal;
+    padding:20px 20px;border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    word-break:normal;
+}
+div{
+    position: fixed;
+
 }
